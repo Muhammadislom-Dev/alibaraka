@@ -1,0 +1,36 @@
+.header-name{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 67.3724px;
+    line-height: 83px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.header-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px 0;
+    width: 470px;
+    color: rgba(255, 255, 255, 0.55);
+}
+.header-btn{
+    width: 240px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 26.5px;
+    border: 2px solid #FCBD17;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+    font-size: 18px;
+    line-height: 30px;
+    background: #FCBD17;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.header-btn:hover{
+    background-color: #000;
+}

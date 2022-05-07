@@ -1,3 +1,4 @@
+import Header from '../../components/Header/Header'
 import Navbar from '../../components/Navbar/Navbar'
 import './HeaderInput.css'
 
@@ -6,6 +7,7 @@ const HeaderInput = ()=>{
         <div className="headerinput">
             <div className="container">
                 <Navbar />
+                <Header />
             </div>
         </div>
     )
