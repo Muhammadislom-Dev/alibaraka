@@ -41,6 +41,9 @@
     padding-left: 10px;
     transition: 0.3s;
 }
+.navbar-number:hover{
+    text-decoration: underline;
+}
 .navbar-pic{
     width: 18px;
     height: 18px;
@@ -50,4 +53,21 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.navbar-links{
+    color: #fff;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    transition: 0.3s;
+}
+
+.navbar-links:hover{
+    color: #037B35;
+}
+
+.navbar-img{
+    width: 87px;
+    height: 78px;
 }
