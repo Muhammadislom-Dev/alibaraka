@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import HeaderInput from './Pages/HeaderInput/HeaderInput';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <HeaderInput />
     </div>
   );
 }
