@@ -1,3 +1,7 @@
+.header{
+    padding: 180px 0;
+}
+
 .header-name{
     font-style: normal;
     font-weight: 800;
@@ -33,4 +37,91 @@
 
 .header-btn:hover{
     background-color: #000;
+}
+
+
+.header-button {
+    background: rgba(236, 235, 147, 0.4);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.header-triangle {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#FDC844;
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    transform: rotate(90deg);
+
+}
+
+.header-right{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+.header-box {
+    padding: 18px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.header-box {
+    position: absolute;
+    /* top: 3%; */
+    left: 25%;
+    margin-left: 85px;
+    padding-left: 55px;
+}
+
+.header-pic {
+    width: 380px;
+    height: 380px;
+}
+
+.header-button {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transition: 1s;
+}
+
+.header-button:hover {
+    box-shadow: 10px 10px 100px #FCBD17;
+    transform: scale(1);
+}
+
+.header-img{
+    position: absolute;
+    top: 8%;
+    left: 54.5%;
+    width: 718px;
+    padding-left: 20px;
+}
+
+.header-pic {
+    animation-name: headerImg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: translate(-50%,-50%);
+    animation-direction: alternate;
+}
+
+@keyframes headerImg {
+    from {
+        transform: rotate(0) scale(0.8);
+    }
+
+    to {
+        transform: rotate(360deg) scale(1.1);
+        /* box-shadow: 10px 10px 100px #FCBD17; */
+    }
+
 }

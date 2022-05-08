@@ -14,6 +14,16 @@ const Header = () =>{
                         <span>Explore</span>
                     </button>
                 </div>
+                <div className="header-right">
+                    <img src={yarim} alt="" className="header-img" />
+                    <div className="header-box">
+                        <img src={sqr} alt="" className="header-pic" />
+
+                        <button className="header-button">
+                            <div className="header-triangle"></div>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     )
