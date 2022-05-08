@@ -5,9 +5,10 @@ import './HeaderInput.css'
 const HeaderInput = ()=>{
     return(
         <div className="headerinput">
-            <div className="container">
-                <Navbar />
-                <Header />
+            <Navbar />
+            <Header />
+            <div className="iframe">
+                
             </div>
         </div>
     )
