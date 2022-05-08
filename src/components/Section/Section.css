@@ -1,0 +1,157 @@
+.section{
+    background-image: url("../../assets/img/left_maysa.2434b6562743a99b9b71.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 100% left 0;
+    padding-bottom: 20px;
+    padding: 80px 0px;
+}
+
+.section-name{
+    color: #000;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+.section-text{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 15px 0;
+    width: 500px;
+}
+
+.section-names{
+    color: #000;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 54px;
+    text-transform: uppercase;
+    width: 580px;
+}
+
+.section-texts{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 35px 0;
+    width: 490px;
+}
+
+.section-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    border: 2px solid #037B35;
+    color: #037B35;
+    padding: 8px 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.section-link span {
+    position: relative;
+    z-index: 1;
+}
+
+.section-link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 320%;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-80%) translateY(-25%) rotate(45deg);
+}
+
+.section-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;  
+    border-radius: 26.5px;
+    transition: 0.8s;
+    width: 32%;
+    color: #fff;
+    outline: none;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;  
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 5px; 
+    color: #037B35;
+    border: 2px solid #037B35;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.section-link:hover:after {
+    color: white;
+    background-color: #dde2df;
+    border: 2px solid #037B35;
+    border-left: 0px;
+    transform: translateX(0%) translateY(-25%);
+}
+
+.section-list {
+    display: flex;
+    align-items: center;
+}
+
+.section-links{
+    margin-left: -10px;
+}
+.section-items{
+    margin-left: 20px;
+}
+
+.section-page{
+    display: flex;
+    align-items: center;
+    padding: 120px 0px;
+    position: relative;
+}
+
+.section-right {
+    display: flex;
+    position: relative;
+}
+
+.section-item {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 55%;
+}
+
+
+.section-titles {
+    position: absolute;
+    top: 48%;
+    z-index: 4;
+    left: 16%;
+}
+
+.section-cloud {
+    position: absolute;
+    top: -60%;
+    z-index: 5;
+    left: 100%;
+}

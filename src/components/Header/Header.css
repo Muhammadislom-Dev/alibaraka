@@ -75,9 +75,8 @@
 }
 .header-box {
     position: absolute;
-    /* top: 3%; */
     left: 25%;
-    margin-left: 85px;
+    margin-left: 80px;
     padding-left: 55px;
 }
 
@@ -102,7 +101,7 @@
     position: absolute;
     top: 8%;
     left: 54.5%;
-    width: 718px;
+    width: 713px;
     padding-left: 20px;
 }
 
