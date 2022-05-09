@@ -1,0 +1,11 @@
+.splide{
+    padding: 30px 0;
+}
+
+.splide-img{
+    margin-left: 55px;
+}
+
+SplideSlide{
+    width: calc(25%);
+}

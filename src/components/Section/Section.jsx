@@ -4,6 +4,8 @@ import frame from '../../assets/img/company_ramka.png'
 import cloud from '../../assets/img/bulut.png'
 import traktor from '../../assets/img/traktor.png'
 import aylana from '../../assets/img/aylana_company.png'
+import Splides from '../Splide/Splide'
+
 
 const Section = () =>{
     return(
@@ -47,6 +49,8 @@ const Section = () =>{
                     </div>
                 </div>
             </div>
+
+        <Splides />
         </div>
     )
 }

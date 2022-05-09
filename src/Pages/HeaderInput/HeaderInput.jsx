@@ -4,6 +4,7 @@ import './HeaderInput.css'
 
 import headerImg from '../../assets/img/header_img.png'
 import Section from '../../components/Section/Section'
+import Splides from '../../components/Splide/Splide'
 
 const HeaderInput = ()=>{
     return(
