@@ -15,6 +15,11 @@
     width: 240px;
     height: 180px;
     object-fit: contain;
+    transition: 0.4s;
+}
+
+.splide-img:hover{
+    transform: scale(0.9);
 }
 .splide-list{
     display: flex;

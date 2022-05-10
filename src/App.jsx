@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import HeaderInput from './Pages/HeaderInput/HeaderInput';
 import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <HeaderInput />
       <Content />
+      <Footer />
     </div>
   );
 }
