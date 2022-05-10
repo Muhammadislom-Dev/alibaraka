@@ -1,14 +1,25 @@
-.splide{
-    padding: 30px 0;
+.splides{
+    /* padding: 30px 0; */
+    background-image: url("../../assets/img/header-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    margin: 80px 0;
+    padding: 0;
+    text-align: center;
+    visibility: visible;
 }
 
 .splide-img{
-    margin-left: 55px;
-    width: 200px;
-    height: 150px;
+    padding: 0 30px;
+    margin:0 15px;
+    width: 240px;
+    height: 180px;
     object-fit: contain;
 }
 .splide-list{
     display: flex;
 }
 
+.splide__slide{
+    width: calc(25%);
+}

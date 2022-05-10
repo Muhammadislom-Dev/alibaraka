@@ -14,27 +14,63 @@ import microsoft from '../../assets/img/micro.png'
 
 const Splides = () =>{
     return(
-        <div className="splide">
+        <div className="splides">
             <div className="container">
 
 
-            <Splide hasTrack={false} className='splide-list'   aria-label="React Splide Example">
+            <Splide  className='splide-list'   aria-label="React Splide Example">
                 <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={microsoft} className="splide-img" alt="Image 1"/>
                     </a>
-                </SplideSlide>
-                <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={wordpress} className="splide-img" alt="Image 2"/>
                     </a>
-                </SplideSlide>
-                <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={slack} className="splide-img" alt="Image 2"/>
                     </a>
+                    <a href="#" className="splide-link">
+                        <img src={google} className="splide-img" alt="Image 2"/>
+                    </a>
                 </SplideSlide>
                 <SplideSlide  className='splide__slide'>
+                    <a href="#" className="splide-link">
+                        <img src={microsoft} className="splide-img" alt="Image 1"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={wordpress} className="splide-img" alt="Image 2"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={slack} className="splide-img" alt="Image 2"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={google} className="splide-img" alt="Image 2"/>
+                    </a>
+                </SplideSlide>
+                <SplideSlide  className='splide__slide'>
+                    <a href="#" className="splide-link">
+                        <img src={microsoft} className="splide-img" alt="Image 1"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={wordpress} className="splide-img" alt="Image 2"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={slack} className="splide-img" alt="Image 2"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={google} className="splide-img" alt="Image 2"/>
+                    </a>
+                </SplideSlide>
+                <SplideSlide  className='splide__slide'>
+                    <a href="#" className="splide-link">
+                        <img src={microsoft} className="splide-img" alt="Image 1"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={wordpress} className="splide-img" alt="Image 2"/>
+                    </a>
+                    <a href="#" className="splide-link">
+                        <img src={slack} className="splide-img" alt="Image 2"/>
+                    </a>
                     <a href="#" className="splide-link">
                         <img src={google} className="splide-img" alt="Image 2"/>
                     </a>
