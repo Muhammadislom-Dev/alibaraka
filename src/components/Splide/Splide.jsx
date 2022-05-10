@@ -1,7 +1,9 @@
 import './Splide.css'
+import styled from 'styled-components'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+// import '@splidejs/react-splide/css/skyblue';
 import React from 'react';
 
 //Images
@@ -11,33 +13,28 @@ import wordpress from '../../assets/img/wordpress.png'
 import microsoft from '../../assets/img/micro.png'
 
 const Splides = () =>{
-
-    document.addEventListener( 'DOMContentLoaded', function () {
-        new Splide( '#image-carousel' ).mount();
-      } );
-
     return(
         <div className="splide">
             <div className="container">
 
 
-            <Splide className='splide-list'  options={{rewind: true, gap: '1rem',}} aria-label="React Splide Example">
-                <SplideSlide className='splide-item'>
+            <Splide hasTrack={false} className='splide-list'   aria-label="React Splide Example">
+                <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={microsoft} className="splide-img" alt="Image 1"/>
                     </a>
                 </SplideSlide>
-                <SplideSlide  className='splide-item'>
+                <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={wordpress} className="splide-img" alt="Image 2"/>
                     </a>
                 </SplideSlide>
-                <SplideSlide  className='splide-item'>
+                <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={slack} className="splide-img" alt="Image 2"/>
                     </a>
                 </SplideSlide>
-                <SplideSlide  className='splide-item'>
+                <SplideSlide  className='splide__slide'>
                     <a href="#" className="splide-link">
                         <img src={google} className="splide-img" alt="Image 2"/>
                     </a>

@@ -4,8 +4,11 @@
 
 .splide-img{
     margin-left: 55px;
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+.splide-list{
+    display: flex;
 }
 
-SplideSlide{
-    width: calc(25%);
-}
