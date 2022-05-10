@@ -1,0 +1,130 @@
+.content-left{
+    left: 23%;
+    position: absolute;
+    top: 22.5%;
+}
+
+.content-right{
+    left: 64.5%;
+    position: absolute;
+    top: 65%;
+}
+
+.content-box{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: -13 8px 41px rgb(83 83 83 / 15%);
+}
+
+.content-page{
+    flex-direction: column;
+}
+
+.content-pic{
+    border-radius: 15px 15px 0 0;
+    width: 100%
+}
+
+.content-name{
+    color: #000;
+    font-style: normal;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 28px;
+    padding: 30px 0;
+    margin-left: 100px;
+    text-transform: uppercase;
+    width: 320px;
+}
+
+.content-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
+    width: 470px;
+    color: #000;
+    font-style: normal;
+    text-align: center;
+    margin-left: 38px;
+}
+
+.content-form{
+    padding: 0 35px 20px;
+}
+
+.content-span{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-input{
+    background: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    outline: none;
+
+
+    line-height: 50px;
+    margin: 20px 0;
+    padding: 2px 20px;
+    width: 224px;
+}
+
+.content-texts{
+    line-height: 60px;
+    padding: 0 20px 2px;
+    width: 100%;
+
+    background: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    outline: none;
+}
+.content-btn{
+    background: #037b35;
+    border: 2px solid #037b35;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    margin: 30px 0 20px;
+    padding: 0 20px;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.content-btn:hover{
+    background-color: #fff;
+    color: #037b35;
+    border: 3px solid #037b35;
+    transform: scale(1.04);
+}
+
+.content{
+    position: relative;
+}
+
+.content .container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

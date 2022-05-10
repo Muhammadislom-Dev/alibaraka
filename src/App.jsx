@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import HeaderInput from './Pages/HeaderInput/HeaderInput';
+import Content from './components/Content/Content';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <HeaderInput />
+      <Content />
     </div>
   );
 }
