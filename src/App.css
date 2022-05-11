@@ -14,3 +14,31 @@
 html{
   scroll-behavior: smooth;
 }
+
+.app-img{
+  width: 100%;
+  margin-top: -28px;
+}
+.App{
+   font-family: 'Radio Canada', sans-serif;;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:   #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #037B35;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #037B35;
+}

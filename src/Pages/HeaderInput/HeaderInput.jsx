@@ -14,9 +14,9 @@ const HeaderInput = ()=>{
             <Header />
           </div>
 
-        <div className="iframe">
-            <img src={headerImg} alt="" className="header-iframe" />
-        </div>
+          <div className="iframe">
+              <img src={headerImg} alt="" className="header-iframe" />
+          </div>
           <Section />
         </>
     )

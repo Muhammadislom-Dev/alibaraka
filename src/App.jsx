@@ -7,6 +7,8 @@ import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
 import Sublime from './components/Sublime/Sublime';
 
+import headerimg from './assets/img/header_img.png'
+
 function App() {
 
   useEffect(() => {
@@ -19,6 +21,9 @@ function App() {
       <Sublime />
       <Content />
       <Footer />
+      <div className="App-page">
+        <img src={headerimg} alt="" className="app-img" />
+      </div>
     </div>
   );
 }
