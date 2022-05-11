@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 import Sublime from './components/Sublime/Sublime';
 
 import headerimg from './assets/img/header_img.png'
+import Hero from './components/Hero/Hero';
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <HeaderInput />
+      <Hero />
       <Sublime />
       <Content />
       <Footer />
