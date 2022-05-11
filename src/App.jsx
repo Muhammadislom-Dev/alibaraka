@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import HeaderInput from './Pages/HeaderInput/HeaderInput';
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
+import Sublime from './components/Sublime/Sublime';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <HeaderInput />
+      <Sublime />
       <Content />
       <Footer />
     </div>
