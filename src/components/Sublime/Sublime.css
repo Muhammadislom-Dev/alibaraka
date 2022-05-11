@@ -1,0 +1,147 @@
+.sublime .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sublime{
+    padding-top: 50px;
+}
+
+.sublime-name{
+    font-style: normal;
+    font-weight: 800;
+    color: #444;
+    font-size: 32px;
+    line-height: 30px;
+    padding: 10px 0 0 40px;
+    width: 350px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-names{
+    color: #037b35;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-title{
+    left: 0%;
+    position: absolute;
+    top: 43.8%;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 14px 14px 40px rgb(0 0 0 / 10%);
+    padding: 30px 20px;
+    width: 270px;
+}
+
+.sublime-texts{
+    font-size: 13px;
+    font-style: normal;
+    line-height: 23px;
+    color: #050505;
+    font-weight: 400;
+    padding: 20px 0;
+    width: 200px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-surnames{
+    color: #037b35;
+    font-weight: 800;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 23px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime{
+    position: relative;
+    padding: 50px 0;
+}
+
+.sublime-link{
+    background: #037b35;
+    border: 2px solid #037b35;
+    border-radius: 49px;
+    box-shadow: 7px 7px 20px rgb(0 0 0 / 30%);
+    left: 63%;
+    position: absolute;
+    top: 77%;
+    transition: 0.3s;
+    font-family: 'Radio Canada', sans-serif;
+
+
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.sublime-link:hover{
+    transform: scale(1.2);
+    color: #037b35;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.sublime-surname{
+    color: #444;
+    font-size: 45px;
+    line-height: 40px;
+    width: 400px;
+    font-weight: bold;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-list{
+    margin-top: 25px;
+}
+
+.sublime-item{
+    border-top: 1px solid #dadada;
+    margin-top: 18px;
+}
+
+.sublime-full{
+    color: #037b35;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    font-weight: 800;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-text{
+    color: #363636;
+    font-size: 15px;
+    padding: 0 0 18px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-links{
+    color: #037b35;
+    font-size: 14px;
+    padding: 25px 0;
+    transition: 0.3s;
+    font-weight: 400;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.sublime-links:hover{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
