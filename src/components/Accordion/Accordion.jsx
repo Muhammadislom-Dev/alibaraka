@@ -1,56 +1,45 @@
 import './Accordion.css'
+import { useState } from 'react';
+import DownIcon from '../../assets/img/down.svg'
 
 import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const Accordions =()=>{
+const Accordions = (props)=>{
+
+  const [selected, setSelected] = useState(null);
+
+function toggler(i){
+    if(selected === i){
+      return setSelected(null)
+    }
+     setSelected(i)
+   }
+
+
 return(
 <div className="accordion">
-    <div className="container">
-    <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Accordion 1</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Accordion 2</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion disabled>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
-          <Typography>Disabled Accordion</Typography>
-        </AccordionSummary>
-      </Accordion>
-    </div>
+
+    <ul className={`faq_list ${props.className ? props.className : "" }`}>
+      {props.faqs.map( (element, i) => {
+    return(
+      <li key={i} className="faq_list__item" onClick={()=> toggler(i)}>
+        <div className="text_wrap faq_list__item__question_wrapper">
+          <p className="faq_header">
+            {element.question}
+          </p>
+          <span className={`icon ${selected===i ? 'closer' : 'opener' }`}>
+            <img className="down-icon" src={DownIcon} alt="" />
+          </span>
+        </div>
+        <div className={`text_wrap ${selected===i ? 'faq_list__item__answer_wrapper show'
+          : 'faq_list__item__answer_wrapper' }`}>
+          <p className="faq_text">
+            {element.answer}
+          </p>
+        </div>
+      </li>
+      )})}
+    </ul>
 </div>
 )
 }

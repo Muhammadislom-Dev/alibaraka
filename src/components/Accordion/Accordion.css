@@ -1,0 +1,109 @@
+.details-title{
+    color: #008AC9;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  
+  .details{
+    border-top: 1px solid rgb(211, 206, 206);
+    padding: 15px 0;
+    padding-top: 25px;
+    margin-top: 25px;
+  }
+  
+  .faq_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 450px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    background-color: #fff;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-sizing: border-box;
+    height: 350px;
+    overflow-y: scroll;
+    padding: 15px;
+  }
+  .faq_list__item{
+    width: 400px;
+    cursor: pointer;
+    padding: 2px;
+    padding-top: 00;
+  }
+  .faq_list__item .text_wrap{
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .faq_list__item__question_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-break: break-all;
+    padding: 8px;
+  }
+  
+  .faq_list__item .faq_header{
+    color: #037b35;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 19px;
+    margin: 0;
+  }
+  
+  .faq_list__item .faq_header::before{
+  content: "";
+  width: 28px;
+  height: 22px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  color: white;
+  background-color: white;
+  background-size: 19px;
+  background-position: top 180% right 100%;
+  }
+  .faq_list__item .icon{
+    transition: all 0.2s ease;
+  
+  }
+  
+  .faq_list__item .closer{
+    transform: rotate(180deg);  
+  
+  }
+  .faq_list__item__answer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    border-bottom: 1px solid #00000022;
+  }
+  
+  .faq_list__item__answer_wrapper .faq_text{
+    color:#037b35;
+    margin-left: 35px;
+    font-size: 14px;
+  }
+  
+  .faq_list__item__answer_wrapper.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  }
+  
+  .down-icon{
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+  }

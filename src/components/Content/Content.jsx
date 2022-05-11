@@ -5,6 +5,8 @@ import aylana from '../../assets/img/aylana.png'
 import garden from '../../assets/img/garden.png'
 
 const Content =() =>{
+
+
     return(
         <div className="content">
             <div className="container">
