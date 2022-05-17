@@ -9,6 +9,7 @@ import Sublime from './components/Sublime/Sublime';
 
 import headerimg from './assets/img/header_img.png'
 import Hero from './components/Hero/Hero';
+import Box from './components/Box/Box';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <div className="App-page">
         <img src={headerimg} alt="" className="app-img" />
       </div>
+
+      {/* <Box /> */}
     </div>
   );
 }
