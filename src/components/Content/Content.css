@@ -10,6 +10,11 @@
     top: 65%;
 }
 
+.error-text{
+    color: red;
+    display: none;
+}
+
 .content-box{
     background: #fff;
     border-radius: 15px;
@@ -121,6 +126,7 @@
 
 .content{
     position: relative;
+    padding: 50px 0;
 }
 
 .content .container{
@@ -128,3 +134,8 @@
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
