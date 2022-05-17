@@ -3,26 +3,28 @@ import './Navbar.css'
 import alibaraka from '../../assets/img/alibaraka.png'
 import phone from '../../assets/img/phone.png'
 
+import { Link } from 'react-router-dom'
+
 const Navbar = () =>{
     return(
         <div className="navbar">
             <div className="container">
                 <div className="nav">
-                    <a href="#" className="navbar-link">
+                    <Link to="/" href="#" className="navbar-link">
                         <img src={alibaraka} alt="" className="navbar-img" />
-                    </a>
+                    </Link>
                     <ul className="navbar-list">
                         <li className="navbar-item">
-                            <a href="#" className="navbar-links">Products</a>
+                            <Link to="/product" href="#" className="navbar-links">Products</Link>
                         </li>
                         <li className="navbar-item">
-                            <a href="#" className="navbar-links">About us</a>
+                            <Link to="/about" href="#" className="navbar-links">About us</Link>
                         </li>
                         <li className="navbar-item">
-                            <a href="#" className="navbar-links">Blog</a>
+                            <Link to="/blog" href="#" className="navbar-links">Blog</Link>
                         </li>
                         <li className="navbar-item">
-                            <a href="#" className="navbar-links">Contact</a>
+                            <Link to="/contact" href="#" className="navbar-links">Contact</Link>
                         </li>
                         <li className="navbar-item navbar-title">
                             <div className="navbar-phone">
